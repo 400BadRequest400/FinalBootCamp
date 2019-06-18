@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Citibank" parallel="false">
+
+    <parameter name="cloud" value="false"/>
+    <parameter name="envName" value="browserstack"/>
+    <parameter name="platform" value="mac"/>
+    <parameter name="os_version" value="High Sierra"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="browserVersion" value="74.0"/>
+    <parameter name="url" value="https://www.citibank.com/"/>
+
+    <test name="Citibank Home">
+        <classes>
+            <class name=""/>
+
+
+        </classes>
+    </test>
+</suite>
